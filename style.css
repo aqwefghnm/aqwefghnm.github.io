@@ -1,0 +1,35 @@
+table{
+    width: 800px;
+    margin: auto;
+}
+table, th, td {
+    border: solid violet 3px;
+    border-collapse: collapse;
+    padding: 5px;
+}
+th.item{
+    font-size: 25px;
+    width: 120px;
+    color: red;
+}
+td.value{
+    font-size: 22px;
+    width: 150px;
+    color: cyan;
+}
+td.photo{
+    width: 240px;
+}
+caption{
+    font-size: 40px;
+    color: red;
+}
+img{
+    width: 240px;
+    height: 320px;
+}
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
